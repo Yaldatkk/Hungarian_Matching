@@ -35,3 +35,6 @@ The matching format is structured as follows:
 }
 
 Each frame_id can have a varying number of matches, with each match assigned a unique id. If you adopt the YOLO format for the 2D RPNs, you can include the yolo_label for additional data validation. The rpn_3d field contains the seven-value RPN format used in OpenPCDet, while projected_2d represents its corresponding projected 2D bounding box.
+You can locate the visualized matching results in the Hungarian_Matching_Visualized folder.
+
+![000066_matched](https://github.com/user-attachments/assets/1948e825-3797-4d39-8b97-4bcfb50c1c0e)
